@@ -1,0 +1,11 @@
+{
+  "name": "shared_territory_and_no_territory_border",
+  "version": "0.1.1",
+  "label": "Shared and Borderless Territory",
+  "description": "Allows you to build on neutral, allied and enemy territory.",
+  "url": "https://gptonline.ai/",
+  "dependencies": ["0ad"],
+  "modtype": "mod",
+  "uuid": "6f6cc7c2-8a1d-4c3d-bcff-terrneutral0001"
+  
+}
