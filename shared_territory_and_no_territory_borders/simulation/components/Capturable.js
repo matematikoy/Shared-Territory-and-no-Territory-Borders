@@ -81,7 +81,6 @@ Capturable.prototype.Reduce = function(amount, playerID)
 
 	if (playerID === 0)
     {
-        warn("⚠️ Reduce() tentou atribuir pontos de captura à Gaia!");
         return 0;
     }
 
@@ -235,7 +234,6 @@ Capturable.prototype.TimerTick = function()
 
 		if (totalNeighbours)
 		{
-			warn("⚔️ Territory decay aplicado a inimigos (Gaia excluída).");
 			for (let p in neighbours)
 			{
 				if (+p === 0 || !cmpDiplomacy || !cmpDiplomacy.IsEnemy(+p))
@@ -247,7 +245,6 @@ Capturable.prototype.TimerTick = function()
 		else
 		{
 			// this.capturePoints[0] += decay; // Descomenta se quiser que Gaia receba
-			warn("⛔ Nenhum inimigo conectado. Decay ignorado.");
 		}
 
 		modifiedCapturePoints += decay;
