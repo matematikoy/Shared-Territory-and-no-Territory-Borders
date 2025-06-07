@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure">
+  <BuildRestrictions>
+    <Territory>own ally neutral enemy</Territory>
+  </BuildRestrictions>
+</Entity>
