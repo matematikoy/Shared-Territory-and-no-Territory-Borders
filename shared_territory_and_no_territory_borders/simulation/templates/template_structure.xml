@@ -149,6 +149,13 @@
   </StatusBars>
   <StatusEffectsReceiver/>
 
+
+  <TerritoryDecay>
+    <DecayRate>5</DecayRate>
+    <Territory>enemy</Territory>
+  </TerritoryDecay>
+
+
   <Visibility>
     <RetainInFog>true</RetainInFog>
     <AlwaysVisible>false</AlwaysVisible>
